@@ -1,0 +1,90 @@
+<html class='no-touch default'>
+  <head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link href='/css/main.css' rel='stylesheet' type='text/css'>
+    <link href='/css/theme.css' rel='stylesheet' type='text/css'>
+    <link href='/css/colors.css' rel='stylesheet' type='text/css'>
+    <link href='/css/font-faces.css' rel='stylesheet' type='text/css'>
+    <link href='/css/fonts.css' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-toggle {
+            z-index: 1001;
+            position: relative;
+        }
+
+        .dropdown-menu-container {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1000;
+            display: none;
+            float: left;
+            min-width: 160px;
+            padding: 5px 0;
+            margin: 2px 0 0;
+            list-style: none;
+            font-size: 14px;
+            text-align: left;
+            background-clip: padding-box;
+            margin-top: -5px;
+            padding: 20px;
+            padding-top: 5px;
+            margin-left: -20px;
+        }
+
+        .dropup .dropdown-menu-container {
+            top: auto;
+            bottom: 100%;
+            margin-bottom: 2px;
+            padding-top: 20px;
+            padding-bottom: 5px;
+        }
+
+        .dropdown-menu-container > .dropdown-menu {
+            position: relative;
+        }
+
+        .modal-backdrop.in {
+            opacity: 0.5;
+            position: fixed;
+            top: 0; left: 0;
+            right: 0; bottom: 0;
+        }
+
+        .nav > li.dropdown > .dropdown-menu-container {
+            margin-top: -25px;
+            padding-top: 30px;
+        }
+        .progress-avatar {
+            height: 15px;
+        }
+        .progress-avatar span {
+            font-size: 8px;
+            line-height: 14px;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="/js/out/goog/base.js" type="text/javascript"></script>
+    <script src="/common/es5shim.js" type="text/javascript"></script>
+    <script src="/common/es6shim.js" type="text/javascript"></script>
+    <script src="/common/uuid.js" type="text/javascript"></script>
+    <script src="/common/jquery.js" type="text/javascript"></script>
+    <script src="/common/eventemitter2.js" type="text/javascript"></script>
+    <script src="/common/react.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    goog.require("goog.functions");
+    </script>
+    <script src="/js/app.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    goog.require("rubix_bootstrap.core");
+    </script>
+    <script src="/js/main.js" type="text/javascript"></script>
+  </body>
+</html>

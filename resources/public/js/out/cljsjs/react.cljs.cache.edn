@@ -1,0 +1,2 @@
+;; Analyzed by ClojureScript 0.0-3269
+{:name cljsjs.react, :doc nil, :excludes #{}, :use-macros nil, :require-macros nil, :uses nil, :requires nil, :imports nil}
